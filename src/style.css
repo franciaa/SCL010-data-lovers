@@ -7,13 +7,16 @@
 }
 
  body {
- background: #356ec4
+ 
+ background-image:url("imagen/imagen.jpg");
+ background-repeat:100px 0px;
+ background-size: cover;
  }
  
  .navegation {
     width:1000px;
     margin: 30px auto;
-    background: rgb(206, 45, 45);
+   
     
  }
  .navegation ul{
