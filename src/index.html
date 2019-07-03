@@ -1,150 +1,48 @@
-
 <!DOCTYPE html>
-<html>
- <head>
-   <meta charset="utf-8">
-   <title>Data Lovers</title>
-   <link rel="stylesheet" href="style.css"/>
-   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    </head>
-
-    
-            
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>POKEMON</title>
+  <link real="stylesheet" href="estilos.css">
  </head>
-
-
- <body>
-
-    <nav>
-        <div class="nav-wrapper">
-          <a  id="logo" href="#!" class="brand-logo"><img id="img-pokebola" src="http://i.ibb.co/mGjGs1s/pokeball.png"/>POKEINFO</a>
-          
-          
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-          <ul class="right hide-on-med-and-down">
-            <li><a href="sass.html">Inicio</a></li>
-            <li><a href="badges.html">Cartas</a></li>
-            <li><a href="collapsible.html">Estadisticas</a></li>
-            <li><a href="mobile.html">Buscar</a></li>
-          </ul>
-        </div>
-      </nav>
+<body>
     
-      <ul class="sidenav" id="mobile-demo">
-        <li><a href="sass.html">Inicio</a></li>
-        <li><a href="badges.html">Cartas</a></li>
-        <li><a href="collapsible.html">Estadisticas</a></li>
-        <li><a href="mobile.html">Buscar</a></li>
-      </ul>
-
-
-    
-        <div id="page-pokemones">
-            <div class="container">
-              <div class="row">
-      
-                <div  id="select-filter">    
-                  <div id="select1" class="col s12 m6">
-                    <select id="select-type"  > 
-                      <option value="All">Elige tu tipo</option>
-                      <option value="Grass">Planta</option>
-                      <option value="Poison">Veneno</option>
-                      <option value="Flying">Volador</option>
-                      <option value="Fire">Fuego</option>
-                      <option value="Water">Agua</option>
-                      <option value="Bug">Bicho</option>
-                      <option value="Normal">Normal</option>
-                      <option value="Electric">Eléctrico</option>
-                      <option value="Ground">Tierra</option>
-                      <option value="Fighting">Peleador</option>
-                      <option value="Psychic">Psiquico</option>
-                      <option value="Rock">Roca</option>
-                      <option value="Ice">Hielo</option>
-                      <option value="Ghost">Fantasma</option>
-                      <option value="Dragon">Dragón</option>
-                    </select>
-                  </div>
-                </div>
-      
-                <div>    
-                  <div id="select2" class="col s12 m6">
-                  <select id="select-order">
-                    <option value="AllSort" selected>Ordenar Por:</option>
-                    <option value="a-z">a-z</option>
-                    <option value="z-a">z-a</option>
-                    <option value="1-151">1-151</option>
-                    <option value="151-1">151-1</option>
+      <div id="POKEMON">
+        <header>
+          <div class="container">
+          <h1> POKEMON</h1>
+          </div>
+          </header>
+        <section>
+      </div>
+      <div id="po-filter-option" class="po-filter-option"></div>
+                <div class="filter">
+                  
+                  <select id="pok-filter" name="filt" class="pok-filter">
+                    <option value="Selected">FILTRA POR TIPO</option>
+                    <option value="Grass">Planta</option>
+                    <option value="Poison">Veneno</option>
+                    <option value="Flying">Volador</option>
+                    <option value="Fire">Fuego</option>
+                    <option value="Water">Agua</option>
+                    <option value="Bug">Bicho</option>  
+                    <option value="Normal">Planta</option>
+                    <option value="Electric">Electrico</option>
+                    <option value="Ground">Tierra</option>
+                    <option value="Fighting">Peleador</option>
+                    <option value="Psychic">Psiquico</option>
+                    <option value="Rock">Roca</option> 
+                     <option value="Ice">Hielo</option>
+                     <option value="Ghost">Fantasma</option>
+                     <option value="Dragon">Dragón</option>
                   </select>
-                  </div>
-                </div>    
-      
-              </div>
-      
-              <div id="pokemon-list" class="row" ></div>
-      
-            </div>
-      
+                </section>
+              <div id="container"></div>
               <div id="root"></div>
-      
-          </div>
-   <!-- <header>
-   <nav class="navegation">
-       <ul class="menu">
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Cartas</a></li>
-         <li><a href="#">Tipos de pokemon</a>
-                  <ul id="submenu">
-                      <li><a href="#">Hierba</a></li>
-                      <li><a href="#">Veneno</a></li>
-                      <li><a href="#">Fuego</a></li>
-                       <li><a href="#">Hielo</a></li>
-                       <li><a href="#">Volador</a></li>
-                       <li><a href="#">Agua</a></li>
-                         <li><a href="#">Psiquico</a></li>
-                         <li><a href="#">Normal</a></li>
-                         <li><a href="#">Roca</a>
-                           <li><a href="#">Electrico/a></li>
-                           <li><a href="#">Lucha</a></li>
-                           <li><a href="#">Fuego</a>
-                  </ul>
-         </li>
-         <li><a href="#">Buscar</a></li> 
-         <form>
-          <div>
-            <input type="search" id="miBusqueda" name="q">  realizar recuadro de busqueda 
-            <button>Buscar</button>
-          </div>
-        </form> -->
-       <!-- </ul>
-    </nav>
-</header>     --> 
-
-
    
- 
- <div id="root"></div> 
-  
    <script src="./data/pokemon/pokemon.js"></script> 
+   
    <script src="data.js"></script>
    <script src="main.js"></script>
-   <!-- Compiled and minified JavaScript -->
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-   
-   <script>
-   $(document).ready(function(){
-    $('select').formSelect();
-  });
-   </script>
-
-   <script>
-   $(document).ready(function(){
-    $('.sidenav').sidenav();
-  });
-   </script>
-
-
  </body>
 </html>
