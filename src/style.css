@@ -1,74 +1,68 @@
- body {
- background: #356ec4
- 
- }
 
- #img-pokebola{
-    width: 40px;
-    height: 40px;
-    margin: 10px;
- }
 
- a#logo{
-    text-align: center;
- }
+body{
+  max-width: 100%;
+  max-height: 100%;
+  text-align: center;
+  color: rgb(64, 8, 116);
+}
 
- #page-pokemones{
-    margin-top: 5%;
- }
+.flip-card {
+  background-color: transparent;
+  width: 190px;
+  height: 205px;
+  margin-bottom: 10px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
 
- /* css card flip */
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
 
- .flip-card {
-   background-color: transparent;
-   width: 190px;
-   height: 205px;
-   margin-bottom: 10px;
-   perspective: 1000px; /* Remove this if you don't want the 3D effect */
- }
- 
- /* This container is needed to position the front and back side */
- .flip-card-inner {
-   position: relative;
-   width: 100%;
-   height: 100%;
-   text-align: center;
-   transition: transform 0.8s;
-   transform-style: preserve-3d;
- }
- 
- /* Do an horizontal flip when you move the mouse over the flip box container */
- .flip-card:hover .flip-card-inner {
-   transform: rotateY(180deg);
- }
- 
- /* Position the front and back side */
- .flip-card-front, .flip-card-back {
-   position: absolute;
-   width: 100%;
-   height: 100%;
-   backface-visibility: hidden;
- }
- 
- /* Style the front side (fallback if image is missing) */
- .flip-card-front {
-   background-color: #bbb;
-   color: black;
-   width: 190px;
-   height: 205px;
- }
- 
- /* Style the back side */
- .flip-card-back {
-   background-color: dodgerblue;
-   color: white;
-   transform: rotateY(180deg);
-   width: 190px;
-   height: 205px;
- }
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
 
- #img-card{
-    width: 100px;
-    height: 100px;
- }
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+  width: 190px;
+  height: 205px;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+  width: 190px;
+  height: 205px;
+}
+
+#img-card{
+   width: 100px;
+   height: 100px;
+}
+
+
+ 
+
+ 
+ 
  

@@ -3,22 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <title>POKEMON</title>
-  <link real="stylesheet" href="estilos.css">
+  <link real="stylesheet" href="style.css">
  </head>
 <body>
-    
-      <div id="POKEMON">
         <header>
           <div class="container">
           <h1> POKEMON</h1>
           </div>
           </header>
         <section>
-      </div>
       <div id="po-filter-option" class="po-filter-option"></div>
                 <div class="filter">
-                  
-                  <select id="pok-filter" name="filt" class="pok-filter">
+                    <input type="button" value="INICIO" id="btnInicio">
+                    <input type="button" value="CARTAS" id="btnCartas">
+                    <input type="button" value="BUSCAR" id="btnBuscar">
+                    <select id="pok-filter" name="filt" class="pok-filter">
                     <option value="Selected">FILTRA POR TIPO</option>
                     <option value="Grass">Planta</option>
                     <option value="Poison">Veneno</option>
@@ -36,6 +35,15 @@
                      <option value="Ghost">Fantasma</option>
                      <option value="Dragon">Dragón</option>
                   </select>
+                  <div>
+                      <select name="select" id="name" class>
+                          <option value="value1">ordena</option>
+                          <option value="a-z">a-z</option> 
+                          <option value="z-a">z-a</option> 
+                           
+                      </select>
+                
+                      </div>
                 </section>
               <div id="container"></div>
               <div id="root"></div>

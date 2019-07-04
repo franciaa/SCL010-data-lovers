@@ -12,3 +12,25 @@ const filterPoke = (myData,type) => {
 }
 
   window.filterPoke = filterPoke;
+
+const containerRoot = document.getElementById('root');
+const selectname = document.getElementById('name');
+
+let sortPokes = (myData,sortBy,sortOrder)=> {
+  let orderaPokes = myData;
+  if (sortOrder == "a-z"){
+ orderaPokes.sort((a,b)=> {
+  if (a[sortBy] < b[sortBy]) {return -1;}
+  if (a[sortBy] > b[sortBy]) {return  1;} 
+  return 0;
+ })
+}
+if (sortOrder == "z-a"){
+   orderaPokes.sort((a,b)=> {
+    if (a[sortBy] > b[sortBy]) {return -1;}
+    if (a[sortBy] < b[sortBy]) {return  1;} 
+    return 0;
+   })
+ }
+ return orderaPokes;
+}
