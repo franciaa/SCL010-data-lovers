@@ -3,19 +3,14 @@
 // esta es una función de ejemplo
 // puedes ver como agregamos la función a nuestro objeto global window
 
-
 const filterPoke = (myData,type) => {
   let result= myData.filter(element => {
   return element.type.includes(type);
 })
-  return result
-}
-
-  window.filterPoke = filterPoke;
-
-const containerRoot = document.getElementById('root');
-const selectname = document.getElementById('name');
-
+  return result;
+} 
+window.filterPoke = filterPoke;
+// ordenar
 let sortPokes = (myData,sortBy,sortOrder)=> {
   let orderaPokes = myData;
   if (sortOrder == "a-z"){
@@ -34,3 +29,5 @@ if (sortOrder == "z-a"){
  }
  return orderaPokes;
 }
+
+window.sortPokes = sortPokes;
