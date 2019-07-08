@@ -1,6 +1,6 @@
 /* Manejo del DOM */
 
-const myData = POKEMON.pokemon; //const para acceder a la data
+const myData = window.POKEMON.pokemon; //const para acceder a la data
 const container = document.getElementById("root");
 
 //DOM FUNCIÓN FILTRAR
@@ -11,8 +11,7 @@ const container = document.getElementById("root");
   lastResult.forEach(element => {
       container.innerHTML += `
       <div class="flip-card">
-<div class="flip-card-inner">
-
+  <div class="flip-card-inner">
   <div class="flip-card-front">
     <img id="img-card" src="${element.img}" alt="Avatar">
    </div>
@@ -31,7 +30,7 @@ const container = document.getElementById("root");
 const pokeOrder = document.getElementById("name");
 pokeOrder.addEventListener('change', () => {
     let sortOrder = pokeOrder.value;
-    let selectionOrder = sortPokes(myData,"name",sortOrder);
+    let selectionOrder = window.sortPokes(myData,"name",sortOrder);
     container.innerHTML ="";
     selectionOrder.forEach(element=> {
       container.innerHTML += `
