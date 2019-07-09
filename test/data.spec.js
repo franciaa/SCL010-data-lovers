@@ -3,7 +3,7 @@ global.assert = require('chai').assert;
 require('../src/data');
 require('./data.spec.js');
 
-const Data = [
+const data = [
   {
     "id": 1,
     "num": "001",
@@ -34,20 +34,14 @@ const Data = [
 ]
   //hago mi test bàsico de que deberia ser una funciòn
 
-  describe('Data.filter', () => {
-  
-    it('debería ser una función', () => {
-      assert.equal(typeof window.Data.filter, 'function');
+  describe('data', () => {
+    it('debería ser un objeto', () => { //it= que quiero testiar de la funcion
+      assert.equal(typeof data, 'object');
     });
-    it('debería retornar el objeto Pikachu al filtrar por tipo Electric', () => {
-      assert.deepEqual(window.Data.filter(Data, "Electric"), [{
-        "id": 25,
-        "num": "025",
-        "name": "Pikachu",
-        "egg": "2 km",
-        "type": [
-          "Electric"
-        ]
-      }]
-      )}
-      )})
+    describe('data,filter', () => {
+     it('debería ser una función', () => {
+      assert.equal(typeof data.filter, 'function');
+    });
+      
+      })
+    })
