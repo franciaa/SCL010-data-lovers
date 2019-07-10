@@ -42,6 +42,9 @@ const data = [
      it('debería ser una función', () => {
       assert.equal(typeof data.filter, 'function');
     });
-      
-      })
+    describe('data,sort', () => {
+      it('debería ser una función', () => {
+       assert.equal(typeof data.sort, 'function');
+      });
     })
+    })})

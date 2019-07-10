@@ -6,7 +6,7 @@ const container = document.getElementById("root");
 //DOM FUNCIÓN FILTRAR
  document.getElementById("pok-filter").addEventListener("change",() => {
   let tipoFilter = document.getElementById("pok-filter").value; 
-  let lastResult = window.filterPoke(myData,tipoFilter); 
+  let lastResult = window.filterPoke(myData,tipoFilter);
   container.innerHTML ="";
   lastResult.forEach(element => {
       container.innerHTML += `
@@ -25,6 +25,7 @@ const container = document.getElementById("root");
 </div>`
     })
   })
+ 
 //ordenar
 
 const pokeOrder = document.getElementById("name");
@@ -36,11 +37,9 @@ pokeOrder.addEventListener('change', () => {
       container.innerHTML += `
       <div class="flip-card">
 <div class="flip-card-inner">
-
   <div class="flip-card-front">
     <img id="img-card" src="${element.img}" alt="Avatar">
    </div>
-
    <div class="flip-card-back">
      <p>${element.name}</p>
      <p id="type-poke">Tipo:${element.type}</p>
