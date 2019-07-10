@@ -1,56 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <title>POKEMON</title>
-  <link real="stylesheet" href="style.css">
- </head>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  <meta charset="utf-8">
+  <title>Data Lovers</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+
 <body>
-        <header>
-          <div class="container">
-              
-          <h1> POKEMON</h1>
-          </div>
-          </header>
-        
-      <div id="po-filter-option" class="po-filter-option"></div>
-                
-                    <input type="button" value="INICIO" id="btnInicio">
-                    <input type="button" value="CARTAS" id="btnCartas">
-                    <input type="button" value="BUSCAR" id="btnBuscar">
-                    <select id="pok-filter" name="filt" class="pok-filter">
-                    <option value="Selected">FILTRA POR TIPO</option>
-                    <option value="Grass">Planta</option>
-                    <option value="Poison">Veneno</option>
-                    <option value="Flying">Volador</option>
-                    <option value="Fire">Fuego</option>
-                    <option value="Water">Agua</option>
-                    <option value="Bug">Bicho</option>  
-                    <option value="Normal">Planta</option>
-                    <option value="Electric">Electrico</option>
-                    <option value="Ground">Tierra</option>
-                    <option value="Fighting">Peleador</option>
-                    <option value="Psychic">Psiquico</option>
-                    <option value="Rock">Roca</option> 
-                     <option value="Ice">Hielo</option>
-                     <option value="Ghost">Fantasma</option>
-                     <option value="Dragon">Dragón</option>
-                  </select>
-                  <div>
-                      <select name="select" id="name" class>
-                          <option value="value1">ordena</option>
-                          <option value="a-z">a-z</option> 
-                          <option value="z-a">z-a</option> 
-                           
-                      </select>
-                      </div>
-                
-              <div id="container"></div>
-              <div id="root"></div>
-   
-   <script src="./data/pokemon/pokemon.js"></script> 
-   
-   <script src="data.js"></script>
-   <script src="main.js"></script>
- </body>
+  
+
+    <div class="row" id="page-pokemon">
+
+  <header>
+    <i class="icofont-search-1"></i> 
+      <div class="container-img">
+        <img id="image-pok" src="https://i.ibb.co/Bg6fCrX/pokipoki.jpg">
+     </div>
+      
+    
+  </header>
+ 
+</section>
+
+  
+
+    <section id="select-pokemon">
+    
+
+
+      <div class="container-button">
+        <input class="buttons" type="button" value="INICIO" id="btnInicio">
+        <input class="buttons" type="button" value="CARTAS" id="btnCartas">
+        <input class="buttons" type="text"  id="btnBuscar">
+      </div>
+</section>
+
+<section>
+      <div id="selects">
+
+        <div id="select-filter">
+          <select id="pok-filter" name="filt" class="pok-filter">
+            <option value="Selected">Elige por tipo</option>
+            <option value="Grass">Planta</option>
+            <option value="Poison">Veneno</option>
+            <option value="Flying">Volador</option>
+            <option value="Fire">Fuego</option>
+            <option value="Water">Agua</option>
+            <option value="Bug">Bicho</option>
+            <option value="Normal">Normal</option>
+            <option value="Electric">Eléctrico</option>
+            <option value="Ground">Tierra</option>
+            <option value="Fighting">Peleador</option>
+            <option value="Psychic">Psiquico</option>
+            <option value="Rock">Roca</option>
+            <option value="Ice">Hielo</option>
+            <option value="Ghost">Fantasma</option>
+            <option value="Dragon">Dragón</option>
+          </select>
+          <div id="container"></div>
+        </div>
+    
+      <div id="select-order">
+        <select name="select" id="name" class="pok-filter">
+          <option value="value1">Ordena</option>
+          <option value="a-z">a-z</option>
+          <option value="z-a">z-a</option>
+        </select>
+      </div>
+     
+    
+  </div>
+  </div>
+  </section>
+
+  <div id="root"></div>
+  <div id="pokemon-list" class="row"></div>
+
+
+  <script src="./data/pokemon/pokemon.js"></script>
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+
+</body>
+
 </html>

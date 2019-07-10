@@ -1,68 +1,173 @@
 
 
 body{
-  max-width: 100%;
-  max-height: 100%;
-  text-align: center;
-  color: rgb(64, 8, 116);
+  background-color:rgb(15, 61, 185);
+
 }
 
+#image-pok{
+ background-image: url("https://i.ibb.co/Bg6fCrX/pokipoki.jpg");
+ position:relative;
+width: 100%;
+
+}
+header{
+ display: flex;
+ justify-content: center;
+}
+
+
+.container-button{
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+
+#select-pokemon{
+ margin-bottom: 20px;
+
+
+}
+
+.buttons{
+ font-size: 20px;
+ width: 120px;
+ height: 40px;
+ max-height: 70px;
+ max-width: 140px;
+ color:#233481 ;
+ border-radius:30px;
+ margin-left:20px;
+ margin-top: 40px;
+}
+
+.container-button{
+ display:flex;
+ flex-wrap: wrap;
+}
+#btnBuscar{
+ font-size: 20px;
+ width:200px;
+height: 40px;
+}
+
+#pok-filter{
+ margin-left:10px;
+ margin-top: 8px;
+} 
+
+.pok-filter{
+ font-size: 20px;
+ width: 280px;
+ height: 40px;
+ max-height: 70px;
+ color:#20197e ;
+ border-radius:20px;
+ margin-top: 7px;
+}
+
+#select-filter, #select-order{
+ display:inline-block;
+ margin-left:50px;
+}
+
+#selects{
+ padding-top:50px;
+ display:flex;
+ justify-content: center;
+ margin: 0 auto;
+ flex-wrap: wrap;
+
+}
+
+#root{
+ column-count: 4;
+ margin-top: 3%;
+ height: 20px;
+ display: flex;
+flex-wrap: wrap;
+margin-bottom: 1px;
+justify-content: center;
+
+}
 .flip-card {
-  background-color: transparent;
-  width: 190px;
-  height: 205px;
-  margin-bottom: 10px;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+ background-color: transparent;
+ width: 190px;
+ height: 205px;
+ margin-bottom: 10px;
+ perspective: 1000px; /* Remove this if you don't want the 3D effect */
+ margin:20px;
+justify-content: center;
 }
 
-/* This container is needed to position the front and back side */
+
 .flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
+ position: relative;
+ width: 100%;
+ height: 100%;
+ text-align: center;
+ transition: transform 0.8s;
+ transform-style: preserve-3d;
+
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
+
 .flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
+ transform: rotateY(180deg);
 }
 
-/* Position the front and back side */
+
 .flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ backface-visibility: hidden;
+
 }
 
-/* Style the front side (fallback if image is missing) */
+
 .flip-card-front {
-  background-color: #bbb;
-  color: black;
-  width: 190px;
-  height: 205px;
+ background-color:rgb(208, 150, 219);
+ color: black;
+ width: 190px;
+ height: 205px;
+ border-radius: 40px;
+
 }
 
-/* Style the back side */
+
 .flip-card-back {
-  background-color: dodgerblue;
-  color: white;
-  transform: rotateY(180deg);
-  width: 190px;
-  height: 205px;
+ background-color:rgb(197, 195, 62);
+ color: rgb(7, 6, 6);
+ transform: rotateY(180deg);
+ width: 190px;
+ height: 205px;
+ border-radius: 40px;
 }
 
 #img-card{
-   width: 100px;
-   height: 100px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 15%;
 }
 
-
- 
-
+@media(max-width:475px){
+ #root{
+   justify-content: center
+ }
+ #select-filter{
+   margin-left: 0px;
+ }
+ #select-order{
+   margin-left:0px;
+ }
+ #pok-filter {
+   margin: 0;
+ }
+}
  
  
  
