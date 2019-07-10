@@ -2,7 +2,6 @@
 <html>
 
 <head>
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
   <meta charset="utf-8">
   <title>Data Lovers</title>
   <link rel="stylesheet" href="style.css"/>
@@ -10,17 +9,19 @@
 
 
 <body>
-  
 
     <div class="row" id="page-pokemon">
 
+  <section id="logo-info-pokemon">
+
   <header>
-    <i class="icofont-search-1"></i> 
+
       <div class="container-img">
-        <img id="image-pok" src="https://i.ibb.co/Bg6fCrX/pokipoki.jpg">
+        <img id="image-pok" src="https://i.ibb.co/NttqYqQ/79c4869e6b207aac8ca8100106645764.jpg">
      </div>
+     
       
-    
+   
   </header>
  
 </section>
@@ -30,14 +31,12 @@
     <section id="select-pokemon">
     
 
-
       <div class="container-button">
-        <input class="buttons" type="button" value="INICIO" id="btnInicio">
-        <input class="buttons" type="button" value="CARTAS" id="btnCartas">
-        <input class="buttons" type="text"  id="btnBuscar">
+        <input class="filter" type="button" value="INICIO" id="btnInicio">
+        <input class="filter" type="button" value="CARTAS" id="btnCartas">
+        <input class="filter" type="button" value="BUSCAR" id="btnBuscar">
       </div>
 </section>
-
 <section>
       <div id="selects">
 
@@ -62,7 +61,7 @@
           </select>
           <div id="container"></div>
         </div>
-    
+
       <div id="select-order">
         <select name="select" id="name" class="pok-filter">
           <option value="value1">Ordena</option>
@@ -71,14 +70,13 @@
         </select>
       </div>
      
-    
   </div>
   </div>
   </section>
 
-  <div id="root"></div>
   <div id="pokemon-list" class="row"></div>
 
+  <div id="root"></div>
 
   <script src="./data/pokemon/pokemon.js"></script>
   <script src="data.js"></script>

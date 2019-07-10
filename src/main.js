@@ -86,7 +86,7 @@ document.getElementById("pok-filter").addEventListener("change",() => {// esta i
 
 // <div class="col s6 m3 l3">
 
-{/* <div class="flip-card">
+/*{ <div class="flip-card">
  <div class="flip-card-inner">
 
    <div class="flip-card-front">
@@ -99,16 +99,16 @@ document.getElementById("pok-filter").addEventListener("change",() => {// esta i
       <p"number-poke">${filterPoke[i].num}</p>
     //</div>
   //</div>
-//  </div> */}
+//  </div> }*/
 //   </div>`
 
 // }
-{/* <div class="img">
+/*{ <div class="img">
 <img src="${element.img}">
 </div>
 <h3>${element.name}</h3>
 <p>${element.type}</p>`
-// } */}
+// } }*/
 
 
 
