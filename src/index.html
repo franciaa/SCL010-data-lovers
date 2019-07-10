@@ -2,6 +2,7 @@
 <html>
 
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
   <title>Data Lovers</title>
   <link rel="stylesheet" href="style.css"/>
@@ -15,7 +16,7 @@
   <section id="logo-info-pokemon">
 
   <header>
-
+<i class="icofont-search-1"></i>
       <div class="container-img">
         <img id="image-pok" src="https://i.ibb.co/NttqYqQ/79c4869e6b207aac8ca8100106645764.jpg">
      </div>
@@ -32,9 +33,9 @@
     
 
       <div class="container-button">
-        <input class="filter" type="button" value="INICIO" id="btnInicio">
-        <input class="filter" type="button" value="CARTAS" id="btnCartas">
-        <input class="filter" type="button" value="BUSCAR" id="btnBuscar">
+        <input class="button" type="button" value="INICIO" id="btnInicio">
+        <input class="button" type="button" value="CARTAS" id="btnCartas">
+        <input class="button" type="text" id="btnBuscar">
       </div>
 </section>
 <section>
@@ -73,10 +74,9 @@
   </div>
   </div>
   </section>
-
+  <div id="root"></div>
   <div id="pokemon-list" class="row"></div>
 
-  <div id="root"></div>
 
   <script src="./data/pokemon/pokemon.js"></script>
   <script src="data.js"></script>
