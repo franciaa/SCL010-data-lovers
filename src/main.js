@@ -7,7 +7,7 @@
 window.onload=() =>{
 
  
-  
+  /*
   //ordenar
 const pokeOrder= document.getElementById("name");
 pokeOrder.addEventListener('change', () => {
@@ -34,10 +34,10 @@ pokeOrder.addEventListener('change', () => {
  
 
   })
- })
+ })*/
   
 //const para acceder a la data
-const myData = POKEMON.pokemon; 
+const myData =window.POKEMON.pokemon; 
 
 //DOM FUNCIÓN FILTRAR
 const container = document.getElementById("root");
@@ -69,7 +69,7 @@ document.getElementById("pok-filter").addEventListener("change",() => {// esta i
 
 
    })
-   
+   /*
 //   showcards(POKEMON.pokemon)
 
 

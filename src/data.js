@@ -13,8 +13,9 @@ const filterPoke = (myData,type) => {
  }  
  window.filterPoke = filterPoke;
 
- const containerRoot = document.getElementById('root');
-const selectname = document.getElementById('name');let sortPokes = (myData,sortBy,sortOrder)=> {
+ //const containerRoot = document.getElementById('root');
+const selectname = document.getElementById('name');
+let sortPokes = (myData,sortBy,sortOrder)=> {
  let orderaPokes = myData;
  if (sortOrder == "a-z"){
 orderaPokes.sort((a,b)=> {
@@ -32,7 +33,6 @@ if (sortOrder == "z-a"){
 }
 return orderaPokes;
 }
-
 // const containerRoot = document.getElementById('root');
 // const selectname = document.getElementById('num');let sortPokes = (myData,sortBy,sortOrder)=> {
 //  let orderaPokes = myData;
@@ -42,4 +42,4 @@ return orderaPokes;
 //  if (a[sortBy] > b[sortBy]) {return  1;}
 //  return 0;
 // })
-// } }
+//
