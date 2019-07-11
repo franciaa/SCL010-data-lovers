@@ -6,8 +6,8 @@
 //recorrer data
 window.onload=() =>{
 
- 
-  /*
+  const sum = document.getElementById('calculation');
+  
   //ordenar
 const pokeOrder= document.getElementById("name");
 pokeOrder.addEventListener('change', () => {
@@ -61,15 +61,26 @@ document.getElementById("pok-filter").addEventListener("change",() => {// esta i
     
       <h4 id="type-poke">Tipo:${element.type}</h4> 
       <p"number-poke">${element.num}</p>
+      <p "weigh
     </div>
   </div>
  </div>`  
 
   })
-
-
    })
-   /*
+   
+  //  Dentro de la funcion se pide que aparezca el del calculo
+document.getElementById("pok-filter").addEventListener("change",() => {
+ document.getElementById("calculation").style.display = "block";
+ let type = document.getElementById("pok-filter").value;
+ let calcResult = window.computeStats(myData,type);
+ sum.innerHTML ="";
+ sum.innerHTML +=  `
+ <div>
+ <h3> Del total de pokemones; ${calcResult} son de tipo </h3>
+ </div>
+ `
+});
 //   showcards(POKEMON.pokemon)
 
 

@@ -27,27 +27,6 @@ header{
 
 }
 
-.buttons{
-  font-size: 20px;
-  width: 120px;
-  height: 40px;
-  max-height: 70px;
-  max-width: 140px;
-  color:#233481 ;
-  border-radius:30px;
-  margin-left:20px;
-  margin-top: 40px;
-}
-
-.container-button{
-  display:flex;
-  flex-wrap: wrap;
-}
-#btnBuscar{
-  font-size: 20px;
-  width:200px;
- height: 40px;
-}
 
 #pok-filter{
   margin-left:10px;
@@ -166,7 +145,11 @@ justify-content: center;
     margin: 0;
   }
 }
+#calculation{
+  text-align:center;
 
+  
+}
 
 
 
