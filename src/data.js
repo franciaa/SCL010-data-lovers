@@ -10,6 +10,8 @@ const filterPoke = (myData,type) => {
   return result;
 } 
 window.filterPoke = filterPoke;
+
+
 // ordenar
 let sortPokes = (myData,sortBy,sortOrder)=> {
   let orderaPokes = myData;
@@ -31,3 +33,17 @@ if (sortOrder == "z-a"){
 }
 
 window.sortPokes = sortPokes;
+// calcular
+
+const computeStats = (myData,type) => {
+  let calculateResult = filterPoke(myData,type).length;
+
+  return calculateResult;
+  //return calculateResult me entrega la cantidad de pokemones
+}
+
+//length: que mi funcion calculate me devuleva el numero de elmentos que contiene el filtro que eligió el usuario
+window.computeStats = computeStats;
+
+
+
