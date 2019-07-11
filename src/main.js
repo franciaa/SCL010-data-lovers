@@ -60,8 +60,8 @@ document.getElementById("pok-filter").addEventListener("change",() => {// esta i
     <div class="flip-card-back">
     
       <h4 id="type-poke">Tipo:${element.type}</h4> 
-      <p"number-poke">${element.num}</p>
-      <p "weigh
+      <p"number-poke">Numero:${element.num}</p>
+      <p "weight">peso:${element.weight}</p>
     </div>
   </div>
  </div>`  
@@ -77,8 +77,13 @@ document.getElementById("pok-filter").addEventListener("change",() => {
  sum.innerHTML ="";
  sum.innerHTML +=  `
  <div>
- <h3> Del total de pokemones; ${calcResult} son de tipo </h3>
+ <h3> Del total de pokemones; ${calcResult} Son de tipo </h3>
  </div>
  `
 });
-}
+
+};
+
+
+
+
