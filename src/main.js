@@ -20,7 +20,7 @@ pokeOrder.addEventListener('change', () => {
  <div class="flip-card-inner">
 
    <div class="flip-card-front">
-     <img id="img-card" src="${element.img}" alt="Avatar">
+     <img id="img-card" src=${element.img} alt="Avatar">
      <h4>${element.name}</h4> 
     </div>
 
@@ -34,7 +34,7 @@ pokeOrder.addEventListener('change', () => {
  
 
   })
- })*/
+ })
   
 //const para acceder a la data
 const myData =window.POKEMON.pokemon; 
@@ -81,48 +81,4 @@ document.getElementById("pok-filter").addEventListener("change",() => {
  </div>
  `
 });
-//   showcards(POKEMON.pokemon)
-
-
-//  function showcards(filterPoke){
-
-  
-
-//  document.getElementById('root').innerHTML='';
-
-// document.getElementById('pokemon-list').innerHTML='';
-// for(let i=0; i<filterPoke.length; i++){
-
-//  document.getElementById('pokemon-list').innerHTML+=`
-
-// <div class="col s6 m3 l3">
-
-/*{ <div class="flip-card">
- <div class="flip-card-inner">
-
-   <div class="flip-card-front">
-     <img id="img-card" src="${filterPoke[i].img}" alt="Avatar">
-    </div>
-
-    <div class="flip-card-back">
-      <p>${filterPoke[i].name}</p> 
-      <p id="type-poke">Tipo:${filterPoke[i].type}</p> 
-      <p"number-poke">${filterPoke[i].num}</p>
-    //</div>
-  //</div>
-//  </div> }*/
-//   </div>`
-
-// }
-/*{ <div class="img">
-<img src="${element.img}">
-</div>
-<h3>${element.name}</h3>
-<p>${element.type}</p>`
-// } }*/
-
-
-
-
-
-};
+}

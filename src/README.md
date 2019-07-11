@@ -1,7 +1,7 @@
 **data lover**
-##**1.información sobre nuestro comienzo del proyecto 
+## 1.información sobre nuestro comienzo del proyecto 
 
-*pokémon*
+* Pokémon
 **aqui nuestras primeras imagenes*
 ([img]http://img.fenixzone.net/i/FKrVsDg.jpeg[/img])
 ([img]http://img.fenixzone.net/i/kfzZUVh.jpeg[/img])
