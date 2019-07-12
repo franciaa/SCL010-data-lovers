@@ -23,17 +23,25 @@ Nuestro usuario fue pensado a que fuera inicial para conocer lo basico de ellos 
 
 Nuestra primera historia fue basada en niños de 7 a 11 años que nos dijieron que no jugaban con mucha frecuencia pero si que querian conocer los tipos de pokemones que existian y que fuera lo más entendible posible junto con aprender los pokemones ordenados de la A a la Z.
 
+### Test de usabilidad
+El test de usabilidad se realizo con un niño de 11 años quien tenia un previo conocimiento y que nuestra web que servia para conocer caracteristicas que le faltaban
+igualmente en su punto de vista dijo que a las cartas le fataba informacion de los pokemones que agregara el peso o alto de ellos.
 ## Desarollo del proyecto
 
 Iniciamos haciendo un scketch de mi sitio, aqui hay una imagen de referencia
+* Pensabamos en hacer 4 botones que tuvieran funcionalidades como menu estaba el de inicio,buscar,cartas y tipo de pokemon.
+al apretar el boton nos mandaria a otra plana donde mostraba la info.
+ ![alt text](https://i.ibb.co/0rYZRxM/Whats-App-Image-2019-07-11-at-12-03-59-PM.jpg)
 
- ![alt text](https://i.ibb.co/0rYZRxM/Whats-App-Image-2019-07-11-at-12-03-59-PM.jpg)]
 
 
+* pero luego pensamos en el usuario inicial y la pagina tenia que ser mas simple para niños por lo que dejamos todo en una misma plana. mientras haciamos el proyecto se veia asi con 3 botones arriba (los cuales no tenian funcionalidad) y dos select en funcion 
 
-**aqui nuestras segunda imagenes del proyecto*
-()
-**videos probando nuestra pagina con nuestra primera historia de usuario**
-()
-()
+![alt-text](https://i.ibb.co/xHwhYpg/Whats-App-Image-2019-07-12-at-12-57-14-AM.jpg)
+
+
+Resultado final con filtrado y calculo determinando cuantos pokemones hay por cada tipo.
+ ![alt text](https://i.ibb.co/vwP0s24/Captura-de-pantalla-de-2019-07-12-00-34-22.png)
+
+
 
