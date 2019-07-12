@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-**data lover**
-## 1.información sobre nuestro comienzo del proyecto 
-
-* Pokémon
-**aqui nuestras primeras imagenes*
-([img]http://img.fenixzone.net/i/FKrVsDg.jpeg[/img])
-([img]http://img.fenixzone.net/i/kfzZUVh.jpeg[/img])
-(http://img.fenixzone.net/i/YHIawjC.jpeg[/img])
-(img]http://img.fenixzone.net/i/E7JQ8gn.jpeg[/img])
-([img]http://img.fenixzone.net/i/2WPQoXF.jpeg[/img])
-=======
 **data lovers**
 # 1.información sobre nuestro comienzo del proyecto 
 
@@ -41,7 +29,6 @@ Iniciamos haciendo un scketch de mi sitio, aqui hay una imagen de referencia
 
  ![alt text](https://i.ibb.co/0rYZRxM/Whats-App-Image-2019-07-11-at-12-03-59-PM.jpg)]
 
->>>>>>> 5355be982deeccca9dc4d2d7a219f0797b0bed56
 
 
 **aqui nuestras segunda imagenes del proyecto*
