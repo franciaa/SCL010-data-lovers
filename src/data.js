@@ -13,8 +13,8 @@ const filterPoke = (myData,type) => {
  }  
  window.filterPoke = filterPoke;
 
- const containerRoot = document.getElementById('root');
-const selectname = document.getElementById('name');
+ //const containerRoot = document.getElementById('root');
+//const selectname = document.getElementById('name');
 let sortPokes = (myData,sortBy,sortOrder)=> {
  let orderaPokes = myData;
  if (sortOrder == "a-z"){

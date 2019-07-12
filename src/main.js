@@ -20,7 +20,7 @@ pokeOrder.addEventListener('change', () => {
  <div class="flip-card-inner">
 
    <div class="flip-card-front">
-     <img id="img-card" src="${element.img}" alt="Avatar">
+     <img id="img-card" src=${element.img} alt="Avatar">
      <h4>${element.name}</h4> 
     </div>
 
@@ -37,7 +37,7 @@ pokeOrder.addEventListener('change', () => {
  })
   
 //const para acceder a la data
-const myData = POKEMON.pokemon; 
+const myData =window.POKEMON.pokemon; 
 
 //DOM FUNCIÓN FILTRAR
 const container = document.getElementById("root");
