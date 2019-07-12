@@ -1,12 +1,16 @@
 body{
-   background-color:rgb(15, 61, 185);
-
+   background-color:rgb(47, 87, 197);
 }
 
-#image-pok{
-  background-image: url("https://i.ibb.co/Bg6fCrX/pokipoki.jpg");
-  position:relative;
+
+
+#image-pok { 
+   background-image: url("https://i.ibb.co/Bg6fCrX/pokipoki.jpg");
+  position:relative; 
 width: 100%;
+
+
+
 
 }
 header{

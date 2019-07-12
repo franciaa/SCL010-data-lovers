@@ -24,7 +24,7 @@ Nuestro usuario fue pensado a que fuera inicial para conocer lo basico de ellos 
 Nuestra primera historia fue basada en niños de 7 a 11 años que nos dijieron que no jugaban con mucha frecuencia pero si que querian conocer los tipos de pokemones que existian y que fuera lo más entendible posible junto con aprender los pokemones ordenados de la A a la Z.
 
 ### Test de usabilidad
-El test de usabilidad se realizo con un niño de 11 años quien tenia un previo conocimiento y que nuestra web que servia para conocer caracteristicas que le faltaban
+El test de usabilidad se realizo con un niño de 11 años quien tenia un previo conocimiento y menciono que nuestra web le servia para conocer caracteristicas que le faltaban
 igualmente en su punto de vista dijo que a las cartas le fataba informacion de los pokemones que agregara el peso o alto de ellos.
 ## Desarollo del proyecto
 
