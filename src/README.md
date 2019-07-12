@@ -33,9 +33,10 @@ Iniciamos haciendo un scketch de mi sitio, aqui hay una imagen de referencia
 al apretar el boton nos mandaria a otra plana donde mostraba la info.
  ![alt text](https://i.ibb.co/0rYZRxM/Whats-App-Image-2019-07-11-at-12-03-59-PM.jpg)
 
+Luego le hicimos encuestas a los usuarios y aqui se muestra que no jugaban regularmente
+![alt-text](https://i.ibb.co/XV9wvQW/Captura-de-pantalla-de-2019-07-12-09-26-50.png)
 
-
-* pero luego pensamos en el usuario inicial y la pagina tenia que ser mas simple para niños por lo que dejamos todo en una misma plana. mientras haciamos el proyecto se veia asi con 3 botones arriba (los cuales no tenian funcionalidad) y dos select en funcion 
+* Afirmamos que el usuario seria inicial la pagina tenia que ser mas simple para niños por lo que dejamos todo en una misma plana. mientras haciamos el proyecto se veia asi con 3 botones arriba (los cuales no tenian funcionalidad) y dos select en funcion 
 
 ![alt-text](https://i.ibb.co/xHwhYpg/Whats-App-Image-2019-07-12-at-12-57-14-AM.jpg)
 
