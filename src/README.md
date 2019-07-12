@@ -44,4 +44,5 @@ Resultado final con filtrado y calculo determinando cuantos pokemones hay por ca
  ![alt text](https://i.ibb.co/vwP0s24/Captura-de-pantalla-de-2019-07-12-00-34-22.png)
 
 
-
+Y asi logramos el Responsive
+![alt-text](https://i.ibb.co/vskVzdn/Whats-App-Image-2019-07-11-at-11-38-39-PM.jpg)

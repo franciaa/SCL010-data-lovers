@@ -8,9 +8,12 @@ body{
    background-image: url("https://i.ibb.co/Bg6fCrX/pokipoki.jpg");
   position:relative; 
 width: 100%;
-
-
-
+}
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #e6d712;
+  color: white;
 
 }
 header{
